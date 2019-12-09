@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9cd4c0c-444a-4b1f-9820-c010a1d3d35f" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="b9cd4c0c-444a-4b1f-9820-c010a1d3d35f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CadeiaConstrutores/CadeiaConstrutores.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CadeiaConstrutores/src/br/com/construtores/beans/DoMeio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CadeiaConstrutores/src/br/com/construtores/beans/LaDeBaixo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CadeiaConstrutores/src/br/com/construtores/beans/PaiDeTodos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CadeiaConstrutores/src/br/com/construtores/beans/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/beans/CarroDeCorrida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/beans/CarroMult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/beans/CarroSoma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/beans/Corrida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/beans/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/br/com/beans/CarroMultTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Carros/Principal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Carros/br/com/beans/Carro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Carros/br/com/beans/CarroTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/beans/Carro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/br/com/beans/CarroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/br/com/beans/CarroSomaTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,24 +33,36 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1TlQY2z2WJK3ekb8P4nJ4Y0TEzs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -45,27 +76,21 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.CarroTest.frearAteZero">
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Principal" />
+      <option name="MAIN_CLASS_NAME" value="br.com.beans.Principal" />
       <module name="Carros" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.beans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarroTest.acelerar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarroMultTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Carros" />
       <extension name="coverage">
         <pattern>
@@ -74,14 +99,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.beans" />
-      <option name="MAIN_CLASS_NAME" value="br.com.beans.CarroTest" />
-      <option name="METHOD_NAME" value="acelerar" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="br.com.beans.CarroMultTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarroTest.carroParado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarroSomaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Carros" />
       <extension name="coverage">
         <pattern>
@@ -90,14 +114,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.beans" />
-      <option name="MAIN_CLASS_NAME" value="br.com.beans.CarroTest" />
-      <option name="METHOD_NAME" value="carroParado" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="br.com.beans.CarroSomaTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarroTest.frear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarroSomaTest.frear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Carros" />
       <extension name="coverage">
         <pattern>
@@ -106,14 +129,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.beans" />
-      <option name="MAIN_CLASS_NAME" value="br.com.beans.CarroTest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.beans.CarroSomaTest" />
       <option name="METHOD_NAME" value="frear" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarroTest.frearAteZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarroSomaTest.frearAteZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Carros" />
       <extension name="coverage">
         <pattern>
@@ -122,7 +145,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.beans" />
-      <option name="MAIN_CLASS_NAME" value="br.com.beans.CarroTest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.beans.CarroSomaTest" />
       <option name="METHOD_NAME" value="frearAteZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -131,13 +154,25 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CarroTest.frearAteZero" />
-        <item itemvalue="JUnit.CarroTest.frear" />
-        <item itemvalue="JUnit.CarroTest.carroParado" />
-        <item itemvalue="JUnit.CarroTest.acelerar" />
         <item itemvalue="Application.Principal" />
+        <item itemvalue="JUnit.CarroMultTest" />
+        <item itemvalue="JUnit.CarroSomaTest" />
+        <item itemvalue="JUnit.CarroSomaTest.frearAteZero" />
+        <item itemvalue="JUnit.CarroSomaTest.frear" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -151,10 +186,53 @@
       <updated>1574032247159</updated>
       <workItem from="1574032255796" duration="1616000" />
       <workItem from="1575485617021" duration="3293000" />
+      <workItem from="1575917610667" duration="8139000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1575920479189">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575920479189" />
+    <state x="679" y="211" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1575919666208">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="679" y="211" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575919666208" />
+    <state x="708" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1575920187101">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="708" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575920187101" />
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1575925757833">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575925757833" />
+    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1575925757833">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575925757833" />
+    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1575925757832">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575925757832" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1575925757833">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575925757833" />
+    <state x="775" y="473" key="ReplaceDuplicatesPrompt" timestamp="1575919668645">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="775" y="473" key="ReplaceDuplicatesPrompt/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575919668645" />
+    <state x="655" y="362" key="com.intellij.ide.util.TipDialog" timestamp="1575917611786">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="655" y="362" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575917611786" />
+    <state x="731" y="257" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1575922267532">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="731" y="257" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575922267532" />
   </component>
 </project>
