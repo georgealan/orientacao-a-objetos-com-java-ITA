@@ -13,6 +13,7 @@ public class CarroSoma extends CarroDeCorrida{
         this.potencia = potencia;
     }
 
+    // Método sobrescrito da super classe CarroDeCorrida, caracterizando polimorfismo.
     @Override
     public void acelerar() {
         velocidade += potencia;

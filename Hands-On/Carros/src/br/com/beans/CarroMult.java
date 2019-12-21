@@ -19,6 +19,7 @@ public class CarroMult extends CarroDeCorrida{
         }
     }
 
+    // Método sobrescrito da super classe CarroDeCorrida, caracterizando polimorfismo.
     @Override
     public void acelerar() {
         if (velocidade == 0){
