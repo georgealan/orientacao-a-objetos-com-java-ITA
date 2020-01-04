@@ -6,7 +6,7 @@ osso
 mesa
 carro
 sapato
-calça
+calca
 olho
 uva
 pera
@@ -15,5 +15,5 @@ peixe
 cavalo
 pedra
 parque
-praça
+praca
 feliz
