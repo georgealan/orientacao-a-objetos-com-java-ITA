@@ -13,11 +13,9 @@ public class Principal {
         String opcao = "";
         String nomeJogador = "";
 
-        System.out.println(" ");
-        System.out.println("Digite o seu nome: ");
+        System.out.println("\nDigite o nome do jogador: ");
         nomeJogador = teclado.next();
 
-        System.out.println(" ");
         System.out.println("\nEscolha uma opção de jogo abaixo: \n");
         System.out.println("Digite 1 para jogar no modo livre, onde você tenta acertar 20 palavras.\n");
         System.out.println("Digite 2 para jogar no modo 3 erros, onde se você errar 3 palavras o jogo termina.\n");
@@ -50,7 +48,6 @@ public class Principal {
             System.out.println(nomeJogador + " sua pontução foi: " + mecanica.getPontuacao() + " pontos.\n");
             System.out.println("Recorde: " + recorde);
             System.out.println("========================================================================\n");
-            System.out.println("========================================================================");
             System.out.println("Deseja jogar novamente? ");
             System.out.println("Responda 's' para Sim ou 'n' para Não: ");
             if (teclado.next().equals("s")) {
